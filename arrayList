@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+class arrayList {
+    public static void main(String[] args) {
+        ArrayList<String> Stdname=new ArrayList<>();
+        Stdname.add("mahesh");
+        Stdname.add("suresh");
+        Stdname.add("ramesh");
+        Stdname.add("akhelesh");
+          System.out.println("the name Add in Arraylist is::");
+        System.out.println(Stdname);
+        try{
+        ArrayList<Integer> stdrollno=new ArrayList<>();
+        stdrollno.add(1);
+        stdrollno.add(2);
+        stdrollno.add(3);
+        stdrollno.add(4);
+        stdrollno.add(4,5);
+        //index=4 ,element=5
+         ArrayList<Integer> stdid=new ArrayList<>();
+         stdid.add(101);
+          stdid.add(102);
+           stdid.add(103);
+            stdid.add(104);
+            stdid.add(105);
+           
+        stdrollno.addAll(stdid);
+        
+        System.out.println("Addtion of 2 list"+stdrollno);
+        System.out.println("get element from list:\n"+stdid.get(2));//103
+        System.out.println("Remove 4 element from list:\n"+stdid.remove(4));
+        //or another method
+       // System.out.println("Remove 4 element from list:\n"+stdid.remove//(Integer.valueof(30));
+        //stdid.clear() is used to remove whole list 
+       // stdid.Contain(101); if list contain 101 then return true //otherwisefalse
+        
+        for(int i=0;i<stdrollno.size();i++)
+        {
+            System.out.println("the element get in list is \n"+stdrollno.get(i));
+        }
+        //another one for each method
+        for(Integer element:stdrollno){
+             System.out.println("foreach method"+element);
+        }
+        }
+        catch(Exception e)
+        {
+            System.out.println("Mattar will solve soon.."+e);
+        }
+        }
+    }
