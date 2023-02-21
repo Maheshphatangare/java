@@ -1,0 +1,19 @@
+import java.util.*;
+class stackex {
+    public static void main(String[] args) {
+        Stack<String> animal=new Stack<>();
+        animal.push("lion");
+            animal.push("leopard");
+                animal.push("fox");
+                    animal.push("Zebra");
+                        animal.push("tiger");
+        System.out.println("Hello jungal!\n"+animal);
+        animal.pop();
+         System.out.println("Hello jungal!\n"+animal);
+         // animal.pop();
+           System.out.println("Hello jungal!\n"+animal.peek());
+         //if element is present then it sent the location other wise print-1
+    System.out.println("Does the stack contains '4'? "+ animal.search("4"));
+    System.out.println("Does the stack contains '4'? " + animal.search("fox"));
+    }
+}
