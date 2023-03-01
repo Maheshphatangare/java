@@ -1,0 +1,19 @@
+import java.util.*;
+
+    
+class multiplication 
+{
+    public static void main(String[] args) {
+        // table tobj=new table();
+         Scanner sc=new Scanner(System.in);
+         System.out.println("enter the number for table:::");
+         int num=sc.nextInt();
+       for(int i=1;i<11;i++)
+       {
+          int res=num*i;
+          System.out.println(num+"X"+i+"="+res);
+       }
+        
+        
+    }
+}
