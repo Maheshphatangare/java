@@ -1,6 +1,8 @@
-import java.io.*;
+import java.util.Scanner;
+
+   import java.io.*;
 class countEven {
-    int counteven(int no)
+   static int counteven(int no)
     {
       int  idig=0;
      int   count=0;
@@ -20,14 +22,15 @@ class countEven {
         return count;
     }
    
-public static void main(String args[])throws Exception{       
-  InputStreamReader r=new InputStreamReader(System.in);    
-     BufferedReader b=new BufferedReader(r);  
+public static void main(String args[]){       
+  Scanner sc=new Scanner(System.in);    
+    
         System.out.println("enter the no");
-        int iNo= Integer.parseInt(b.readLine());
-        countEven st =new countEven(iNo);
-        System.out.println("counteven are:"+ st );
+        int iNo= sc.nextInt();
+        //countEven st =new countEven(iNo);
+        System.out.println("counteven are:"+ counteven(iNo));
         
     }
     
-}
+}     
+      
