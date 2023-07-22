@@ -24,12 +24,12 @@ class binerySearch{
             {
                 h=m-1;
             }
-            if(f==false)
+           
+        }
+         if(f==false)
             {
                 System.out.println("Hello, World!"); 
             }
-        }
-        
         
     
     }
