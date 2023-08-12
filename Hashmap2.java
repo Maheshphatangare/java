@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+//hashmap
 public class Hashmap2 {
   public static void main(String[] args) {
 
