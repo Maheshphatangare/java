@@ -1,6 +1,6 @@
 // Java Program to Display Current Date and Time
 import java.util.*;
- 
+ //date
 public class DATE {
     public static void main(String args[])
     {
