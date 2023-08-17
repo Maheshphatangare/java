@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//max min from  Array
 public class MaxMinFromArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
