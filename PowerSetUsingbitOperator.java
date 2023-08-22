@@ -12,6 +12,7 @@ public class PowerSetUsingbitOperator {
         int powerSetSize = (int) Math.pow(2, n);
 
         for (int i = 0; i < powerSetSize; i++) {
+            //use to save sub set
             List<Integer> subset = new ArrayList<>();
             for (int j = 0; j < n; j++) {
                 if ((i & (1 << j)) > 0) {
