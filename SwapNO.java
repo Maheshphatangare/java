@@ -1,6 +1,6 @@
 class SwapNO {
     public static void main(String[] args) {
-     
+     //swap
         int a=10;
         int b=13;
         int c;
