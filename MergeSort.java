@@ -1,4 +1,5 @@
 public class MergeSort {
+    //mergesort
     public static void mergeSort(int[] array) {
         if (array.length <= 1) {
             return;
