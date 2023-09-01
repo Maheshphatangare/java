@@ -1,6 +1,7 @@
 // Java program to move all negative numbers to the
 // beginning and all positive numbers to the end with
 // constant extra space
+//array
 import java.util.*;
 public class arrsort2 {
 	
