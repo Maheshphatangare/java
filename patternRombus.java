@@ -1,5 +1,5 @@
 import java.util.*;
-  
+  //rombus
 public class patternRombus {
     // Function to demonstrate pattern
     public static void printPattern(int n)
