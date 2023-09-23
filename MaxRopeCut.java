@@ -1,5 +1,5 @@
 public class MaxRopeCut {
-
+//hii
     // Function to find the maximum number of pieces
     // that can be obtained from a rope of length n
     public static int maxPieces(int n, int a, int b, int c) {
