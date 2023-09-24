@@ -1,3 +1,4 @@
+//power
 class Mathpow {
    public static int pow(int base,int rise){
        int b=base;
