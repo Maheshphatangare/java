@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//permutation
 public class Permutations {
      public static void Per(char[] arr, int fi) {
         if (fi == arr.length - 1) {
