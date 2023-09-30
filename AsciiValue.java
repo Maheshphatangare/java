@@ -1,7 +1,7 @@
 public class AsciiValue {
 
     public static void main(String[] args) {
-//code
+//iscit code
         char ch = 'a';
         int ascii = ch;
         // You can also cast char to int
