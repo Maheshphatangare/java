@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//code
 public class DivisorFinder {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
