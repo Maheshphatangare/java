@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class DiamondPattern  
 {  
 public static void main(String args[])  
-{  
+{      
 int row, i, j, space = 1;  
 System.out.print("Enter the number of rows you want to print: ");  
 Scanner sc = new Scanner(System.in);  
