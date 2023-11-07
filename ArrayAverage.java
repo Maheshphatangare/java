@@ -1,5 +1,5 @@
 package com.javaprogramto.programs.arrays.average;
- 
+  
 public class ArrayAverage {
  
     public static void main(String[] args) {
