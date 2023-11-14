@@ -5,7 +5,7 @@ public class CreateFile {
 	public static void main(String[] args) {
 		try {
 			
-			//create file 
+			//create file  
 			
 			File f1=new File("D:\\FileHandling\\Batch1.txt");
 			
