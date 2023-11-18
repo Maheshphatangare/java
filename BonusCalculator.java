@@ -5,7 +5,7 @@ public class BonusCalculator {
         // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
 
-        // Ask the user for their salary
+        // Ask the user  for their salary
         System.out.print("Enter your salary: ");
         double salary = scanner.nextDouble();
 
