@@ -1,6 +1,6 @@
 import java.util.*;  
 public class AlphabetPattern  
-{  
+{    
 public static void main(String[] args)  
 {  
 int i, j, n=8;  
