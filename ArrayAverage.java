@@ -9,7 +9,7 @@ public class ArrayAverage {
  
         // getting array length
         int length = array.length;
- 
+  
         // default sium value.
         int sum = 0;
  
