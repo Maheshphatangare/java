@@ -1,7 +1,7 @@
 class AbstractDemo1 
 { 
  public static void main(String args[]) 
- { 
+ {  
  
  Shape shape; 
  Rectangle r = new Rectangle(); 
