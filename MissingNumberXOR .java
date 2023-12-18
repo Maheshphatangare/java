@@ -2,7 +2,7 @@ public class MissingNumberXOR {
     public static int findMissingNumber(int[] nums) {
         int xorTotal = 0;
         int xorArray = 0;
-//original loop
+//original loop 
         for (int i = 1; i <= nums.length + 1; i++) {
             xorTotal =xorTotal ^ i;
         }
