@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+ 
 public class ConvertUserArrayToArrayList {
     public static void main(String[] args) {
         // Take input from the user to create an array
