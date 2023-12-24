@@ -10,7 +10,7 @@ Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();  
 //calling the method and prints the result  
 System.out.println("The square root of "+ n+ " is: "+squareRoot(n));  
-}  
+}   a
 //user-defined method that contains the logic to find the square root  
 public static double squareRoot(int num)   
 {  
