@@ -4,7 +4,7 @@ public class CaseConversion {
     public static void main(String[] args) {
         
         String str = "Ragu Pati Raghava Raja Ram Patit A pavan Sita Ram";
-        
+         
         String convertedString = convertCase(str);
         System.out.println("Converted string: " + convertedString);
     }
